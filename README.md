@@ -5,26 +5,27 @@ We use and explain InceptionV1(GoogLeNet) architecture in this repository
 ## <span style="color:green">Inceptions</span>
 
 The Inception Network was one of the major breakthroughs in the fields of Neural Networks, particularly for CNNs. <br>
-So far there are three versions of Inception Networks, which are named Inception Version 1, 2, and 3. The first version entered <br>
-the field in 2014, and as the name "GoogleNet" suggests, it was developed by a team at Google. This network was responsible for <br>
-setting a new state-of-the-art for classification and detection in the ILSVRC. This first version of the Inception network is <br>
-referred to as GoogleNet.
+So far there are three versions of Inception Networks, which are named Inception Version 1, 2, and 3. The first <br>
+version entered the field in 2014, and as the name "GoogleNet" suggests, it was developed by a team at Google. <br>
+This network was responsible for setting a new state-of-the-art for classification and detection in the ILSVRC. <br>
+This first version of the Inception network is referred to as GoogleNet.
 
 <a><img src="images/inception.png"/></a>
 
 ## <span style="color:red">GoogLeNet</span>
 
-The GoogleNet Architecture is 22 layers deep, with 27 pooling layers included. There are 9 inception modules stacked linearly in total.<br>
-The ends of the inception modules are connected to the global average pooling layer. Below is a zoomed-out image of the full GoogleNet architecture.<br>
+The GoogleNet Architecture is 22 layers deep, with 27 pooling layers included. There are 9 inception modules <br>
+stacked linearly in total. The ends of the inception modules are connected to the global average pooling layer. <br>
+Below is a zoomed-out image of the full GoogleNet architecture.<br>
 
 <a><img src="images/googlenet.png"/></a>
 
 ## <span style="color:blue">GoogLeNet Training and Results</span>
 
-GoogleNet is trained using distributed machine learning systems with a modest amount of model and data parallelism. The training <br>
-used asynchronous stochastic gradient descent with a momentum of 0.9 and a fixed learning rate schedule decreasing the learning <br>
-rate by 4% every 8 epochs. Below is an image of the results of the teams that performed for ILSVRC 2014. GoogleNet stood in first <br>
-place with an error rate of 6.67%.
+GoogleNet is trained using distributed machine learning systems with a modest amount of model and data parallelism.<br>
+The training used asynchronous stochastic gradient descent with a momentum of 0.9 and a fixed learning rate schedule <br>
+decreasing the learning rate by 4% every 8 epochs. Below is an image of the results of the teams that performed <br>
+for ILSVRC 2014. GoogleNet stood in first place with an error rate of 6.67%.
 
 <a><img src="images/googleresult.png"/></a>
 
