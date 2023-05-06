@@ -22,10 +22,11 @@ Below is a zoomed-out image of the full GoogleNet architecture.<br>
 
 ## <span style="color:blue">GoogLeNet Training and Results</span>
 
-GoogleNet is trained using distributed machine learning systems with a modest amount of model and data parallelism.<br>
-The training used asynchronous stochastic gradient descent with a momentum of 0.9 and a fixed learning rate schedule <br>
-decreasing the learning rate by 4% every 8 epochs. Below is an image of the results of the teams that performed <br>
-for ILSVRC 2014. GoogleNet stood in first place with an error rate of 6.67%.
+GoogleNet is trained using distributed machine learning systems with a modest amount of model<br>
+and data parallelism. The training used asynchronous stochastic gradient descent with a momentum<br>
+of 0.9 and a fixed learning rate schedule decreasing the learning rate by 4% every 8 epochs. <br>
+Below is an image of the results of the teams that performed for ILSVRC 2014. GoogleNet stood <br>
+in first place with an error rate of 6.67%.
 
 <a><img src="images/googleresult.png"/></a>
 
